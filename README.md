@@ -17,3 +17,11 @@ Install php-server with npm:
 Start the server:
 
 `php-server --port 8080 --host 0.0.0.0 --dir public`
+
+## Options
+
+`-p,--port` Set port Number , default `8080`
+
+`-h,--host` Set host Address , default `0.0.0.0`
+
+`-d,--dir` Set directory to serve, default ``
