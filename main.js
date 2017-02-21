@@ -21,4 +21,4 @@ option
 
   app.listen(option.port, option.host);
 
-  console.log("Server listening at port:"+option.port);
+  console.log("Server listening http://"+ option.host + ":" +option.port);
