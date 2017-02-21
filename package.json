@@ -11,6 +11,10 @@
   "bin": {
     "php-server": "main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Windastella/php-server"
+  },
   "dependencies": {
     "body-parser": "^1.16.1",
     "commander": "^2.9.0",
