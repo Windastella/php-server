@@ -1,0 +1,22 @@
+{
+  "name": "php-server",
+  "version": "0.0.1",
+  "description": "Serve PHP server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik Mirza",
+  "license": "MIT",
+  "bin": {
+    "php-server": "main.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "commander": "^2.9.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "node-php": "0.0.1",
+    "path": "^0.12.7"
+  }
+}
