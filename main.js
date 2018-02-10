@@ -11,14 +11,19 @@ option
   .option('-t, --test', 'Testing build')
   .parse(process.argv);
 
+try{
+  
   const express = require('express'),
   php = require("node-php"),
   path = require("path");
 
   var app = express();
 
+
   app.use("/", php.cgi("./"+option.dir));
 
   app.listen(option.port, option.host);
-
   console.log("Server listening http://"+ option.host + ":" +option.port);
+}catch(e){
+  console.error(e);
+}
