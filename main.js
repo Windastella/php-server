@@ -20,8 +20,7 @@ try{
 
   var app = express();
 
-
-  app.use("/", php.cgi("./"+option.dir));
+  app.use("/", php.cgi(process.cwd()+option.dir));
 
   app.listen(option.port, option.host);
   console.log("Server listening http://"+ option.host + ":" +option.port);
