@@ -18,7 +18,7 @@ This node require php-cgi and your choosen version of PHP installed:
 
 Install php-server with npm:
 
-`npm install -g github:Windastella/php-server`
+`npm install -g @windastella/php-server`
 
 Start the server:
 
