@@ -1,6 +1,6 @@
 {
   "name": "@windastella/php-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Serve PHP server",
   "main": "main.js",
   "scripts": {
